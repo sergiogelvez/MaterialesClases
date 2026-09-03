@@ -1,0 +1,12 @@
+\frametitle{Lo que sigue}
+\begin{itemize}
+  \item \textbf{Matplotlib}: graficar los arreglos que acabamos de construir.
+  \item \textbf{Lectura de datos}: \code{np.loadtxt}, \code{np.genfromtxt} y archivos de laboratorio.
+  \item \textbf{SciPy}: integración, optimización, ajuste de curvas, ecuaciones diferenciales.
+  \item \textbf{Álgebra lineal}: \code{np.linalg} — sistemas, autovalores, descomposiciones.
+  \item \textbf{Números aleatorios}: \code{np.random} y simulación Monte Carlo.
+\end{itemize}
+
+\bigskip
+Referencia recomendada: \textcolor{borgonaClaro}{\texttt{numpy.org/doc/stable}}
+— especialmente \textit{NumPy: the absolute basics for beginners}.
