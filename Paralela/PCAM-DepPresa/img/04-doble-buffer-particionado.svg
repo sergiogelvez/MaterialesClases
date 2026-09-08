@@ -1,0 +1,40 @@
+<svg width="700" height="360" viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a4" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#A4133C"/>
+    </marker>
+  </defs>
+  <text x="350" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">El doble búfer elimina la sincronización dentro de la generación</text>
+
+  <rect x="20" y="42" width="290" height="150" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="165" y="64" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">grilla_actual — solo LECTURA</text>
+  <g stroke="#C9B7BB" fill="#FFFFFF">
+    <rect x="44" y="76" width="24" height="24"/><rect x="68" y="76" width="24" height="24" fill="#28A745"/><rect x="92" y="76" width="24" height="24"/><rect x="116" y="76" width="24" height="24"/>
+    <rect x="44" y="100" width="24" height="24"/><rect x="68" y="100" width="24" height="24"/><rect x="92" y="100" width="24" height="24" fill="#590D22"/><rect x="116" y="100" width="24" height="24"/>
+  </g>
+  <text x="40" y="148" fill="#333333" font-size="10">Todas las unidades de ejecución</text>
+  <text x="40" y="163" fill="#333333" font-size="10">ven la misma foto del pasado.</text>
+  <text x="40" y="180" fill="#1E7E34" font-size="10" font-weight="bold">Sin candados de lectura.</text>
+
+  <line x1="315" y1="117" x2="375" y2="117" stroke="#A4133C" stroke-width="2.2" marker-end="url(#a4)"/>
+  <text x="345" y="108" text-anchor="middle" fill="#A4133C" font-size="10">regla local</text>
+
+  <rect x="380" y="42" width="300" height="150" rx="8" fill="#F5FBF6" stroke="#28A745" stroke-width="1.5"/>
+  <text x="530" y="64" text-anchor="middle" fill="#1E7E34" font-size="12" font-weight="bold">grilla_nueva — cada tarea ESCRIBE su celda</text>
+  <g stroke="#C9B7BB" fill="#FFFFFF">
+    <rect x="404" y="76" width="24" height="24"/><rect x="428" y="76" width="24" height="24"/><rect x="452" y="76" width="24" height="24" fill="#28A745"/><rect x="476" y="76" width="24" height="24"/>
+    <rect x="404" y="100" width="24" height="24"/><rect x="428" y="100" width="24" height="24" fill="#590D22"/><rect x="452" y="100" width="24" height="24"/><rect x="476" y="100" width="24" height="24"/>
+  </g>
+  <text x="400" y="148" fill="#333333" font-size="10">Cada tarea escribe solo su propia</text>
+  <text x="400" y="163" fill="#333333" font-size="10">celda destino: sin colisión de escritura</text>
+  <text x="400" y="180" fill="#333333" font-size="10">entre tareas (con conflictos resueltos aparte).</text>
+
+  <path d="M 530 196 L 530 218 L 165 218 L 165 200" stroke="#A4133C" stroke-width="1.8" fill="none" stroke-dasharray="4,3" marker-end="url(#a4)"/>
+  <text x="350" y="232" text-anchor="middle" fill="#A4133C" font-size="10">al terminar la generación: intercambiar punteros y repetir el intercambio de halos</text>
+
+  <rect x="20" y="252" width="660" height="94" rx="8" fill="#590D22"/>
+  <text x="350" y="274" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">Por qué se elige sobre la actualización en sitio</text>
+  <text x="40" y="296" fill="#F2C4CE" font-size="11">• Memoria compartida: evita condiciones de carrera lectura/escritura entre hilos sin necesitar exclusión mutua.</text>
+  <text x="40" y="314" fill="#F2C4CE" font-size="11">• Memoria distribuida: el halo que se envía es, por definición, un estado ya cerrado — nunca "a medio actualizar".</text>
+  <text x="40" y="332" fill="#F2C4CE" font-size="11">• En ambos casos el resultado deja de depender del orden de ejecución de las tareas: es prerrequisito de escalar.</text>
+</svg>

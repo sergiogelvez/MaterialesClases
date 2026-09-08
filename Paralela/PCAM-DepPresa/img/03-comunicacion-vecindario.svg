@@ -1,0 +1,51 @@
+<svg width="720" height="360" viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <text x="180" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Cada tarea depende solo de su vecindario</text>
+
+  <g stroke="#C9B7BB" fill="#FFFFFF">
+    <rect x="60" y="40" width="36" height="36"/><rect x="96" y="40" width="36" height="36"/><rect x="132" y="40" width="36" height="36"/>
+    <rect x="60" y="76" width="36" height="36"/><rect x="96" y="76" width="36" height="36" fill="#A4133C"/><rect x="132" y="76" width="36" height="36"/>
+    <rect x="60" y="112" width="36" height="36"/><rect x="96" y="112" width="36" height="36"/><rect x="132" y="112" width="36" height="36"/>
+  </g>
+  <g stroke="#A4133C" stroke-width="2" fill="none">
+    <rect x="60" y="40" width="36" height="36"/><rect x="96" y="40" width="36" height="36"/><rect x="132" y="40" width="36" height="36"/>
+    <rect x="60" y="76" width="36" height="36"/><rect x="132" y="76" width="36" height="36"/>
+    <rect x="60" y="112" width="36" height="36"/><rect x="96" y="112" width="36" height="36"/><rect x="132" y="112" width="36" height="36"/>
+  </g>
+  <text x="114" y="176" text-anchor="middle" fill="#333333" font-size="11">4 (o 8) lecturas por tarea</text>
+  <text x="114" y="192" text-anchor="middle" fill="#333333" font-size="11">ninguna escritura cruzada</text>
+
+  <rect x="240" y="60" width="200" height="76" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="340" y="84" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Caracterización</text>
+  <text x="256" y="104" fill="#333333" font-size="10">Local · Estructurada</text>
+  <text x="256" y="120" fill="#333333" font-size="10">Estática en su forma · Regular</text>
+
+  <text x="500" y="30" text-anchor="middle" fill="#7B2D3B" font-size="13" font-weight="bold">Frontera entre subdominios: celdas fantasma</text>
+  <g stroke="#C9B7BB" fill="#FFF0F3">
+    <rect x="440" y="44" width="30" height="30"/><rect x="470" y="44" width="30" height="30"/><rect x="500" y="44" width="30" height="30"/>
+    <rect x="440" y="74" width="30" height="30"/><rect x="470" y="74" width="30" height="30"/><rect x="500" y="74" width="30" height="30"/>
+  </g>
+  <g stroke="#C9B7BB" fill="#F9E3E8">
+    <rect x="530" y="44" width="30" height="30" stroke-dasharray="2,2"/>
+    <rect x="530" y="74" width="30" height="30" stroke-dasharray="2,2"/>
+  </g>
+  <g stroke="#C9B7BB" fill="#FFFFFF">
+    <rect x="560" y="44" width="30" height="30"/><rect x="590" y="44" width="30" height="30"/>
+    <rect x="560" y="74" width="30" height="30"/><rect x="590" y="74" width="30" height="30"/>
+  </g>
+  <text x="470" y="130" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">subdominio A</text>
+  <text x="545" y="130" text-anchor="middle" fill="#A4133C" font-size="10" font-weight="bold">halo</text>
+  <text x="575" y="130" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">subdominio B</text>
+  <text x="545" y="146" text-anchor="middle" fill="#6B7280" font-size="9">copia de solo lectura</text>
+  <text x="545" y="158" text-anchor="middle" fill="#6B7280" font-size="9">del borde vecino</text>
+
+  <rect x="30" y="200" width="660" height="150" rx="8" fill="#590D22"/>
+  <text x="360" y="222" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">Por qué importa cada adjetivo de la caracterización</text>
+  <text x="52" y="246" fill="#F2C4CE" font-size="11" font-weight="bold">Local</text>
+  <text x="52" y="262" fill="#F2C4CE" font-size="10">ninguna tarea consulta la grilla completa → el costo de comunicación no crece con N·M.</text>
+  <text x="52" y="284" fill="#F2C4CE" font-size="11" font-weight="bold">Estructurada</text>
+  <text x="52" y="300" fill="#F2C4CE" font-size="10">el patrón es idéntico para toda celda interior → se puede generar una sola vez, no por tarea.</text>
+  <text x="380" y="246" fill="#F2C4CE" font-size="11" font-weight="bold">Regular (mayormente estática)</text>
+  <text x="380" y="262" fill="#F2C4CE" font-size="10">el volumen de datos por intercambio es constante → predecible, fácil de solapar con cómputo.</text>
+  <text x="380" y="284" fill="#F2C4CE" font-size="11" font-weight="bold">La excepción: el agente que se muda</text>
+  <text x="380" y="300" fill="#F2C4CE" font-size="10">rompe la regularidad — se trata aparte (siguiente lámina).</text>
+</svg>

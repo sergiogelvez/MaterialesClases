@@ -1,0 +1,44 @@
+<svg width="720" height="380" viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <text x="185" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Franjas (1D)</text>
+  <g stroke="#7B2D3B" stroke-width="1" fill="#FFF0F3">
+    <rect x="60" y="40" width="250" height="45"/>
+    <rect x="60" y="85" width="250" height="45" fill="#F9E3E8"/>
+    <rect x="60" y="130" width="250" height="45"/>
+    <rect x="60" y="175" width="250" height="45" fill="#F9E3E8"/>
+  </g>
+  <g stroke="#A4133C" stroke-width="2.4">
+    <line x1="60" y1="85" x2="310" y2="85"/>
+    <line x1="60" y1="130" x2="310" y2="130"/>
+    <line x1="60" y1="175" x2="310" y2="175"/>
+  </g>
+  <text x="185" y="112" text-anchor="middle" fill="#590D22" font-size="10">proceso 0</text>
+  <text x="185" y="157" text-anchor="middle" fill="#590D22" font-size="10">proceso 1</text>
+  <text x="185" y="202" text-anchor="middle" fill="#590D22" font-size="10">proceso 2</text>
+
+  <text x="185" y="242" text-anchor="middle" fill="#333333" font-size="10">perímetro por bloque: 2 franjas</text>
+  <text x="185" y="258" text-anchor="middle" fill="#1E7E34" font-size="10" font-weight="bold">simple de indexar</text>
+
+  <line x1="360" y1="40" x2="360" y2="270" stroke="#F4ACB7" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <text x="540" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Bloques (2D)</text>
+  <g stroke="#7B2D3B" stroke-width="1" fill="#FFF0F3">
+    <rect x="440" y="40" width="82" height="82"/><rect x="522" y="40" width="82" height="82" fill="#F9E3E8"/>
+    <rect x="440" y="122" width="82" height="82" fill="#F9E3E8"/><rect x="522" y="122" width="82" height="82"/>
+  </g>
+  <g stroke="#A4133C" stroke-width="2.4">
+    <line x1="522" y1="40" x2="522" y2="204"/>
+    <line x1="440" y1="122" x2="604" y2="122"/>
+  </g>
+  <text x="481" y="86" text-anchor="middle" fill="#590D22" font-size="10">P0</text>
+  <text x="563" y="86" text-anchor="middle" fill="#590D22" font-size="10">P1</text>
+  <text x="481" y="168" text-anchor="middle" fill="#590D22" font-size="10">P2</text>
+  <text x="563" y="168" text-anchor="middle" fill="#590D22" font-size="10">P3</text>
+
+  <text x="540" y="242" text-anchor="middle" fill="#333333" font-size="10">perímetro por bloque: 4 bordes más cortos</text>
+  <text x="540" y="258" text-anchor="middle" fill="#1E7E34" font-size="10" font-weight="bold">mejor razón superficie/volumen a escala</text>
+
+  <rect x="30" y="288" width="660" height="76" rx="8" fill="#590D22"/>
+  <text x="360" y="309" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">La razón superficie/volumen es la que decide</text>
+  <text x="360" y="330" text-anchor="middle" fill="#F2C4CE" font-size="11">Comunicación ∝ perímetro del subdominio · Cómputo ∝ área del subdominio.</text>
+  <text x="360" y="348" text-anchor="middle" fill="#F2C4CE" font-size="11">Con pocos procesos, las franjas bastan; con muchos, los bloques mantienen la razón favorable.</text>
+</svg>

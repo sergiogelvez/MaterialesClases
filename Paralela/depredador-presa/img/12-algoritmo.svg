@@ -1,0 +1,44 @@
+<svg width="560" height="470" viewBox="0 0 560 470" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a12" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#7B2D3B"/>
+    </marker>
+  </defs>
+
+  <rect x="160" y="10" width="240" height="40" rx="20" fill="#590D22"/>
+  <text x="280" y="35" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">Inicializar grilla y semilla</text>
+  <line x1="280" y1="50" x2="280" y2="68" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a12)"/>
+
+  <rect x="140" y="72" width="280" height="36" rx="6" fill="#F9E3E8" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="280" y="95" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">generación t = 1 … T</text>
+  <line x1="280" y1="108" x2="280" y2="126" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a12)"/>
+
+  <rect x="120" y="130" width="320" height="36" rx="6" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1.4"/>
+  <text x="280" y="153" text-anchor="middle" fill="#333333" font-size="11">Barajar el orden de los individuos</text>
+  <line x1="280" y1="166" x2="280" y2="184" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a12)"/>
+
+  <rect x="120" y="188" width="320" height="52" rx="6" fill="#F5FBF6" stroke="#28A745" stroke-width="1.5"/>
+  <text x="280" y="208" text-anchor="middle" fill="#1E7E34" font-size="12" font-weight="bold">Turno de las PRESAS</text>
+  <text x="280" y="228" text-anchor="middle" fill="#333333" font-size="10">mover · aplicar regla_reproduccion · aplicar regla_muerte</text>
+  <line x1="280" y1="240" x2="280" y2="258" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a12)"/>
+
+  <rect x="120" y="262" width="320" height="52" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="280" y="282" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Turno de los DEPREDADORES</text>
+  <text x="280" y="302" text-anchor="middle" fill="#333333" font-size="10">comer o mover · reproducción · muerte por inanición</text>
+  <line x1="280" y1="314" x2="280" y2="332" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a12)"/>
+
+  <rect x="120" y="336" width="320" height="36" rx="6" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1.4"/>
+  <text x="280" y="359" text-anchor="middle" fill="#333333" font-size="11">Censar y registrar poblaciones en t</text>
+
+  <path d="M 440 354 L 500 354 L 500 90 L 424 90" stroke="#7B2D3B" stroke-width="1.8" fill="none" marker-end="url(#a12)"/>
+  <text x="512" y="226" fill="#7B2D3B" font-size="11" transform="rotate(90 512 226)" text-anchor="middle">siguiente generación</text>
+
+  <line x1="120" y1="354" x2="60" y2="354" stroke="#7B2D3B" stroke-width="1.8"/>
+  <path d="M 60 354 L 60 400" stroke="#7B2D3B" stroke-width="1.8" fill="none"/>
+  <line x1="60" y1="400" x2="160" y2="400" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a12)"/>
+  <rect x="164" y="382" width="236" height="36" rx="18" fill="#7B2D3B"/>
+  <text x="282" y="405" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">al terminar: exportar la serie temporal</text>
+
+  <text x="280" y="444" text-anchor="middle" fill="#6B7280" font-size="11">Una única variable global de estado: la grilla.</text>
+  <text x="280" y="461" text-anchor="middle" fill="#6B7280" font-size="11">Todo lo demás es local a la celda y a su vecindario.</text>
+</svg>

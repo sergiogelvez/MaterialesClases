@@ -1,0 +1,28 @@
+<svg width="700" height="340" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a5" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#A4133C"/>
+    </marker>
+  </defs>
+  <text x="350" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">El caso que rompe la regularidad: un agente cruza la frontera</text>
+
+  <rect x="30" y="46" width="280" height="180" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="170" y="66" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Subdominio A</text>
+  <rect x="380" y="46" width="280" height="180" rx="8" fill="#F9E3E8" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="520" y="66" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Subdominio B</text>
+
+  <line x1="310" y1="46" x2="310" y2="226" stroke="#7B2D3B" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="380" y1="46" x2="380" y2="226" stroke="#7B2D3B" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="345" y="240" text-anchor="middle" fill="#7B2D3B" font-size="10">halo</text>
+
+  <circle cx="250" cy="140" r="10" fill="#590D22"/>
+  <text x="250" y="120" text-anchor="middle" fill="#590D22" font-size="10">depredador</text>
+  <path d="M 260 140 L 405 140" stroke="#A4133C" stroke-width="2.4" fill="none" stroke-dasharray="6,4" marker-end="url(#a5)"/>
+  <circle cx="415" cy="140" r="10" fill="#590D22" fill-opacity="0.35" stroke="#590D22" stroke-width="1.6" stroke-dasharray="3,2"/>
+  <text x="415" y="120" text-anchor="middle" fill="#590D22" font-size="10">se muda a B</text>
+
+  <rect x="30" y="252" width="630" height="76" rx="8" fill="#590D22"/>
+  <text x="345" y="273" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">No es un intercambio de bordes: es una transferencia de propiedad</text>
+  <text x="52" y="294" fill="#F2C4CE" font-size="10">Memoria compartida: el agente ya vive en memoria común — basta con actualizar a qué subdominio lógico pertenece.</text>
+  <text x="52" y="312" fill="#F2C4CE" font-size="10">Memoria distribuida: hay que serializar su estado completo (posición, edad, energía) y enviarlo como mensaje al proceso vecino.</text>
+</svg>

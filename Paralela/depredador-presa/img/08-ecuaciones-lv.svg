@@ -1,0 +1,33 @@
+<svg width="720" height="330" viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <text x="360" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Modelo continuo de Lotka-Volterra</text>
+
+  <rect x="30" y="40" width="660" height="82" rx="8" fill="#F5FBF6" stroke="#28A745" stroke-width="1.6"/>
+  <text x="52" y="66" fill="#1E7E34" font-size="13" font-weight="bold">Presas (x)</text>
+  <text x="200" y="82" fill="#333333" font-size="24" font-style="italic">dx/dt = </text>
+  <text x="308" y="82" fill="#28A745" font-size="24" font-style="italic" font-weight="bold">α x</text>
+  <text x="358" y="82" fill="#333333" font-size="24">−</text>
+  <text x="390" y="82" fill="#A4133C" font-size="24" font-style="italic" font-weight="bold">β x y</text>
+  <text x="308" y="106" fill="#1E7E34" font-size="11">crecen sin límite</text>
+  <text x="390" y="106" fill="#A4133C" font-size="11">las cazan: proporcional a los encuentros</text>
+
+  <rect x="30" y="132" width="660" height="82" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.6"/>
+  <text x="52" y="158" fill="#590D22" font-size="13" font-weight="bold">Depredadores (y)</text>
+  <text x="200" y="174" fill="#333333" font-size="24" font-style="italic">dy/dt = </text>
+  <text x="308" y="174" fill="#A4133C" font-size="24" font-style="italic" font-weight="bold">δ x y</text>
+  <text x="378" y="174" fill="#333333" font-size="24">−</text>
+  <text x="410" y="174" fill="#590D22" font-size="24" font-style="italic" font-weight="bold">γ y</text>
+  <text x="308" y="198" fill="#A4133C" font-size="11">crecen al comer</text>
+  <text x="410" y="198" fill="#590D22" font-size="11">mueren a tasa constante</text>
+
+  <rect x="30" y="226" width="320" height="94" rx="8" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1.4"/>
+  <text x="190" y="248" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Los cuatro parámetros</text>
+  <text x="48" y="270" fill="#333333" font-size="11">α — tasa de reproducción de la presa</text>
+  <text x="48" y="288" fill="#333333" font-size="11">β — eficacia de la depredación</text>
+  <text x="48" y="306" fill="#333333" font-size="11">δ — conversión de presa en depredador · γ — mortalidad</text>
+
+  <rect x="370" y="226" width="320" height="94" rx="8" fill="#590D22"/>
+  <text x="530" y="248" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">El término clave es el producto x·y</text>
+  <text x="530" y="270" text-anchor="middle" fill="#F2C4CE" font-size="11">supone que cualquier presa puede encontrarse</text>
+  <text x="530" y="286" text-anchor="middle" fill="#F2C4CE" font-size="11">con cualquier depredador: mezcla perfecta.</text>
+  <text x="530" y="308" text-anchor="middle" fill="#D4A0AA" font-size="11">Justamente lo que el autómata celular no asume.</text>
+</svg>

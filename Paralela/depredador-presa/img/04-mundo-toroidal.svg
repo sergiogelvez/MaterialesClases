@@ -1,0 +1,48 @@
+<svg width="700" height="350" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a4" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#A4133C"/>
+    </marker>
+  </defs>
+
+  <text x="180" y="22" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Grilla toroidal N × M</text>
+
+  <g stroke="#C9B7BB" stroke-width="1" fill="#FFFFFF">
+    <rect x="60" y="36" width="34" height="34"/><rect x="94" y="36" width="34" height="34"/><rect x="128" y="36" width="34" height="34"/><rect x="162" y="36" width="34" height="34"/><rect x="196" y="36" width="34" height="34"/><rect x="230" y="36" width="34" height="34"/><rect x="264" y="36" width="34" height="34"/>
+    <rect x="60" y="70" width="34" height="34"/><rect x="94" y="70" width="34" height="34"/><rect x="128" y="70" width="34" height="34"/><rect x="162" y="70" width="34" height="34"/><rect x="196" y="70" width="34" height="34"/><rect x="230" y="70" width="34" height="34"/><rect x="264" y="70" width="34" height="34"/>
+    <rect x="60" y="104" width="34" height="34"/><rect x="94" y="104" width="34" height="34"/><rect x="128" y="104" width="34" height="34"/><rect x="162" y="104" width="34" height="34"/><rect x="196" y="104" width="34" height="34"/><rect x="230" y="104" width="34" height="34"/><rect x="264" y="104" width="34" height="34"/>
+    <rect x="60" y="138" width="34" height="34"/><rect x="94" y="138" width="34" height="34"/><rect x="128" y="138" width="34" height="34"/><rect x="162" y="138" width="34" height="34"/><rect x="196" y="138" width="34" height="34"/><rect x="230" y="138" width="34" height="34"/><rect x="264" y="138" width="34" height="34"/>
+    <rect x="60" y="172" width="34" height="34"/><rect x="94" y="172" width="34" height="34"/><rect x="128" y="172" width="34" height="34"/><rect x="162" y="172" width="34" height="34"/><rect x="196" y="172" width="34" height="34"/><rect x="230" y="172" width="34" height="34"/><rect x="264" y="172" width="34" height="34"/>
+    <rect x="60" y="206" width="34" height="34"/><rect x="94" y="206" width="34" height="34"/><rect x="128" y="206" width="34" height="34"/><rect x="162" y="206" width="34" height="34"/><rect x="196" y="206" width="34" height="34"/><rect x="230" y="206" width="34" height="34"/><rect x="264" y="206" width="34" height="34"/>
+  </g>
+
+  <g fill="#28A745">
+    <circle cx="111" cy="53" r="9"/><circle cx="213" cy="53" r="9"/><circle cx="77" cy="121" r="9"/><circle cx="179" cy="121" r="9"/><circle cx="247" cy="87" r="9"/><circle cx="145" cy="189" r="9"/><circle cx="281" cy="155" r="9"/><circle cx="111" cy="223" r="9"/><circle cx="213" cy="223" r="9"/><circle cx="77" cy="189" r="9"/>
+  </g>
+  <g fill="#590D22">
+    <polygon points="145,45 154,61 136,61"/><polygon points="247,181 256,197 238,197"/><polygon points="179,215 188,231 170,231"/><polygon points="111,147 120,163 102,163"/><polygon points="281,79 290,95 272,95"/>
+  </g>
+
+  <path d="M 55 155 L 30 155 L 30 258 L 303 258 L 303 121 L 320 121" stroke="#A4133C" stroke-width="1.8" fill="none" stroke-dasharray="5,3" marker-end="url(#a4)"/>
+  <text x="166" y="272" text-anchor="middle" fill="#A4133C" font-size="10">quien sale por la izquierda reaparece por la derecha</text>
+  <path d="M 213 30 L 213 14 L 350 14" stroke="#A4133C" stroke-width="1.8" fill="none" stroke-dasharray="5,3"/>
+  <path d="M 350 14 L 350 250 L 213 250 L 213 246" stroke="#A4133C" stroke-width="1.8" fill="none" stroke-dasharray="5,3" marker-end="url(#a4)"/>
+
+  <rect x="380" y="36" width="300" height="112" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="530" y="58" text-anchor="middle" fill="#590D22" font-size="13" font-weight="bold">Estados posibles de una celda</text>
+  <rect x="398" y="70" width="20" height="20" fill="#FFFFFF" stroke="#7B2D3B"/>
+  <text x="430" y="85" fill="#333333" font-size="12">VACÍA</text>
+  <circle cx="408" cy="108" r="9" fill="#28A745"/>
+  <text x="430" y="113" fill="#333333" font-size="12">PRESA (edad)</text>
+  <polygon points="408,126 417,142 399,142" fill="#590D22"/>
+  <text x="430" y="140" fill="#333333" font-size="12">DEPREDADOR (edad, energía)</text>
+
+  <rect x="380" y="160" width="300" height="80" rx="8" fill="#590D22"/>
+  <text x="530" y="182" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">Frontera periódica</text>
+  <text x="530" y="202" text-anchor="middle" fill="#F2C4CE" font-size="11">vecino(i, j) = ( (i ± 1 + N) mod N ,</text>
+  <text x="530" y="219" text-anchor="middle" fill="#F2C4CE" font-size="11">(j ± 1 + M) mod M )</text>
+  <text x="530" y="235" text-anchor="middle" fill="#D4A0AA" font-size="10">Sin bordes: ninguna celda es un caso especial.</text>
+
+  <text x="530" y="266" text-anchor="middle" fill="#6B7280" font-size="11">Una celda alberga a lo sumo un individuo:</text>
+  <text x="530" y="282" text-anchor="middle" fill="#6B7280" font-size="11">el espacio mismo limita la población.</text>
+</svg>

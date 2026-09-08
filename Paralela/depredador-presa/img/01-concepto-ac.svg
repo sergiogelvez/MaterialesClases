@@ -1,0 +1,40 @@
+<svg width="720" height="340" viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a1" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#A4133C"/>
+    </marker>
+  </defs>
+
+  <text x="120" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Estado en el paso t</text>
+  <g stroke="#7B2D3B" stroke-width="1.2" fill="#FFFFFF">
+    <rect x="30" y="36" width="36" height="36"/><rect x="66" y="36" width="36" height="36"/><rect x="102" y="36" width="36" height="36"/><rect x="138" y="36" width="36" height="36"/><rect x="174" y="36" width="36" height="36"/>
+    <rect x="30" y="72" width="36" height="36"/><rect x="66" y="72" width="36" height="36" fill="#F9E3E8"/><rect x="102" y="72" width="36" height="36"/><rect x="138" y="72" width="36" height="36"/><rect x="174" y="72" width="36" height="36"/>
+    <rect x="30" y="108" width="36" height="36"/><rect x="66" y="108" width="36" height="36" fill="#F9E3E8"/><rect x="102" y="108" width="36" height="36" fill="#A4133C"/><rect x="138" y="108" width="36" height="36" fill="#F9E3E8"/><rect x="174" y="108" width="36" height="36"/>
+    <rect x="30" y="144" width="36" height="36"/><rect x="66" y="144" width="36" height="36"/><rect x="102" y="144" width="36" height="36" fill="#F9E3E8"/><rect x="138" y="144" width="36" height="36"/><rect x="174" y="144" width="36" height="36"/>
+    <rect x="30" y="180" width="36" height="36"/><rect x="66" y="180" width="36" height="36"/><rect x="102" y="180" width="36" height="36"/><rect x="138" y="180" width="36" height="36"/><rect x="174" y="180" width="36" height="36"/>
+  </g>
+  <text x="120" y="238" text-anchor="middle" fill="#6B7280" font-size="11">celda y su vecindario</text>
+
+  <line x1="228" y1="126" x2="300" y2="126" stroke="#A4133C" stroke-width="2.5" marker-end="url(#a1)"/>
+  <rect x="228" y="60" width="264" height="56" rx="8" fill="#590D22"/>
+  <text x="360" y="82" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">Regla de transición local</text>
+  <text x="360" y="102" text-anchor="middle" fill="#F2C4CE" font-size="12">s(c, t+1) = f( s(c, t), s(vecinos de c, t) )</text>
+  <text x="360" y="146" text-anchor="middle" fill="#7B2D3B" font-size="11">la misma f para todas las celdas</text>
+  <text x="360" y="164" text-anchor="middle" fill="#6B7280" font-size="11">sin información global</text>
+
+  <line x1="420" y1="126" x2="492" y2="126" stroke="#A4133C" stroke-width="2.5" marker-end="url(#a1)"/>
+
+  <text x="600" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Estado en el paso t+1</text>
+  <g stroke="#7B2D3B" stroke-width="1.2" fill="#FFFFFF">
+    <rect x="510" y="36" width="36" height="36"/><rect x="546" y="36" width="36" height="36"/><rect x="582" y="36" width="36" height="36"/><rect x="618" y="36" width="36" height="36"/><rect x="654" y="36" width="36" height="36"/>
+    <rect x="510" y="72" width="36" height="36"/><rect x="546" y="72" width="36" height="36"/><rect x="582" y="72" width="36" height="36" fill="#A4133C"/><rect x="618" y="72" width="36" height="36"/><rect x="654" y="72" width="36" height="36"/>
+    <rect x="510" y="108" width="36" height="36"/><rect x="546" y="108" width="36" height="36" fill="#F9E3E8"/><rect x="582" y="108" width="36" height="36"/><rect x="618" y="108" width="36" height="36"/><rect x="654" y="108" width="36" height="36"/>
+    <rect x="510" y="144" width="36" height="36"/><rect x="546" y="144" width="36" height="36"/><rect x="582" y="144" width="36" height="36" fill="#F9E3E8"/><rect x="618" y="144" width="36" height="36"/><rect x="654" y="144" width="36" height="36"/>
+    <rect x="510" y="180" width="36" height="36"/><rect x="546" y="180" width="36" height="36"/><rect x="582" y="180" width="36" height="36"/><rect x="618" y="180" width="36" height="36"/><rect x="654" y="180" width="36" height="36"/>
+  </g>
+  <text x="600" y="238" text-anchor="middle" fill="#6B7280" font-size="11">nueva configuración</text>
+
+  <rect x="30" y="258" width="660" height="62" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="360" y="280" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Cuatro ingredientes: grilla · conjunto de estados · vecindario · regla de transición</text>
+  <text x="360" y="302" text-anchor="middle" fill="#333333" font-size="11">El tiempo avanza en pasos discretos y todas las celdas se rigen por la misma regla.</text>
+</svg>

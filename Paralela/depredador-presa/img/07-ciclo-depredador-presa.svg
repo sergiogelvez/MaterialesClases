@@ -1,0 +1,36 @@
+<svg width="700" height="340" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a7" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#A4133C"/>
+    </marker>
+  </defs>
+
+  <text x="350" y="24" text-anchor="middle" fill="#7B2D3B" font-size="15" font-weight="bold">El ciclo de retroalimentación negativa</text>
+
+  <rect x="230" y="42" width="240" height="58" rx="8" fill="#F5FBF6" stroke="#28A745" stroke-width="1.6"/>
+  <text x="350" y="66" text-anchor="middle" fill="#1E7E34" font-size="13" font-weight="bold">1 · Abundan las presas</text>
+  <text x="350" y="86" text-anchor="middle" fill="#333333" font-size="11">alimento fácil para el depredador</text>
+
+  <rect x="470" y="140" width="220" height="58" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.6"/>
+  <text x="580" y="164" text-anchor="middle" fill="#590D22" font-size="13" font-weight="bold">2 · Crecen los depredadores</text>
+  <text x="580" y="184" text-anchor="middle" fill="#333333" font-size="11">comen y se reproducen más</text>
+
+  <rect x="230" y="240" width="240" height="58" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.6"/>
+  <text x="350" y="264" text-anchor="middle" fill="#333333" font-size="13" font-weight="bold">3 · Escasean las presas</text>
+  <text x="350" y="284" text-anchor="middle" fill="#333333" font-size="11">la depredación supera la reproducción</text>
+
+  <rect x="10" y="140" width="220" height="58" rx="8" fill="#F9E3E8" stroke="#A4133C" stroke-width="1.6"/>
+  <text x="120" y="164" text-anchor="middle" fill="#590D22" font-size="13" font-weight="bold">4 · Caen los depredadores</text>
+  <text x="120" y="184" text-anchor="middle" fill="#333333" font-size="11">mueren de inanición</text>
+
+  <path d="M 470 78 Q 560 92 578 134" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a7)"/>
+  <path d="M 578 198 Q 560 250 476 266" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a7)"/>
+  <path d="M 230 266 Q 140 250 122 204" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a7)"/>
+  <path d="M 122 140 Q 140 92 224 76" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a7)"/>
+
+  <text x="350" y="164" text-anchor="middle" fill="#590D22" font-size="13" font-weight="bold">Ninguna población</text>
+  <text x="350" y="182" text-anchor="middle" fill="#590D22" font-size="13" font-weight="bold">se estabiliza</text>
+  <text x="350" y="202" text-anchor="middle" fill="#6B7280" font-size="11">cada una persigue a la otra con retardo</text>
+
+  <text x="350" y="326" text-anchor="middle" fill="#6B7280" font-size="11">El retardo entre causa y efecto es lo que convierte la regulación en oscilación.</text>
+</svg>

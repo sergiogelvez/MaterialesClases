@@ -1,0 +1,59 @@
+<svg width="720" height="380" viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a6" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#7B2D3B"/>
+    </marker>
+  </defs>
+
+  <rect x="16" y="12" width="688" height="30" rx="6" fill="#590D22"/>
+  <text x="360" y="32" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">Turno de un DEPREDADOR — igual que la presa, pero administrando energía</text>
+
+  <rect x="252" y="54" width="216" height="30" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="360" y="74" text-anchor="middle" fill="#590D22" font-size="12">edad ← edad + 1</text>
+  <line x1="360" y1="84" x2="360" y2="98" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a6)"/>
+
+  <polygon points="360,102 496,134 360,166 224,134" fill="#F9E3E8" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="360" y="130" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">¿hay una PRESA</text>
+  <text x="360" y="146" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">en el vecindario?</text>
+
+  <line x1="496" y1="134" x2="556" y2="134" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a6)"/>
+  <text x="526" y="126" text-anchor="middle" fill="#1E7E34" font-size="11" font-weight="bold">sí</text>
+  <rect x="560" y="108" width="144" height="52" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="632" y="126" text-anchor="middle" fill="#590D22" font-size="11" font-weight="bold">COMER y moverse ahí</text>
+  <text x="632" y="143" text-anchor="middle" fill="#333333" font-size="10">energía ← energía + ganancia</text>
+  <text x="632" y="156" text-anchor="middle" fill="#6B7280" font-size="10">la presa desaparece</text>
+
+  <line x1="224" y1="134" x2="164" y2="134" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a6)"/>
+  <text x="194" y="126" text-anchor="middle" fill="#E5383B" font-size="11" font-weight="bold">no</text>
+  <rect x="20" y="108" width="144" height="52" rx="6" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.4"/>
+  <text x="92" y="126" text-anchor="middle" fill="#333333" font-size="11" font-weight="bold">moverse a una vacía</text>
+  <text x="92" y="143" text-anchor="middle" fill="#333333" font-size="10">(o quedarse si no hay)</text>
+  <text x="92" y="156" text-anchor="middle" fill="#E5383B" font-size="10">energía ← energía − 1</text>
+
+  <line x1="92" y1="160" x2="92" y2="192" stroke="#7B2D3B" stroke-width="1.8"/>
+  <line x1="632" y1="160" x2="632" y2="192" stroke="#7B2D3B" stroke-width="1.8"/>
+  <line x1="92" y1="192" x2="360" y2="192" stroke="#7B2D3B" stroke-width="1.8"/>
+  <line x1="632" y1="192" x2="360" y2="192" stroke="#7B2D3B" stroke-width="1.8"/>
+  <line x1="360" y1="192" x2="360" y2="208" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a6)"/>
+
+  <polygon points="360,212 490,242 360,272 230,242" fill="#F9E3E8" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="360" y="239" text-anchor="middle" fill="#590D22" font-size="11" font-weight="bold">¿se cumple la regla</text>
+  <text x="360" y="254" text-anchor="middle" fill="#590D22" font-size="11" font-weight="bold">de MUERTE?</text>
+
+  <line x1="490" y1="242" x2="556" y2="242" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a6)"/>
+  <text x="522" y="234" text-anchor="middle" fill="#E5383B" font-size="11" font-weight="bold">sí</text>
+  <rect x="560" y="222" width="144" height="40" rx="6" fill="#FFFFFF" stroke="#E5383B" stroke-width="1.6"/>
+  <text x="632" y="238" text-anchor="middle" fill="#E5383B" font-size="11" font-weight="bold">muere</text>
+  <text x="632" y="254" text-anchor="middle" fill="#333333" font-size="10">la celda queda VACÍA</text>
+
+  <line x1="230" y1="242" x2="164" y2="242" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a6)"/>
+  <text x="196" y="234" text-anchor="middle" fill="#1E7E34" font-size="11" font-weight="bold">no</text>
+  <rect x="20" y="222" width="144" height="40" rx="6" fill="#F5FBF6" stroke="#28A745" stroke-width="1.4"/>
+  <text x="92" y="238" text-anchor="middle" fill="#1E7E34" font-size="11" font-weight="bold">¿regla de reproducción?</text>
+  <text x="92" y="254" text-anchor="middle" fill="#333333" font-size="10">si aplica, deja una cría</text>
+
+  <rect x="16" y="288" width="688" height="82" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="360" y="310" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Tres relojes por individuo</text>
+  <text x="360" y="331" text-anchor="middle" fill="#333333" font-size="11">edad — cuánto lleva vivo · energía — cuánto le queda antes de morir de inanición · posición — dónde está</text>
+  <text x="360" y="352" text-anchor="middle" fill="#6B7280" font-size="11">El orden importa: comer antes de decidir la muerte da una generación de gracia; invertirlo endurece el modelo.</text>
+</svg>

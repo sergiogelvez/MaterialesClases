@@ -1,0 +1,49 @@
+<svg width="720" height="380" viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a11" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#A4133C"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="22" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Separe el motor de las reglas</text>
+
+  <rect x="190" y="38" width="340" height="120" rx="10" fill="#590D22"/>
+  <text x="360" y="62" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">MOTOR DEL AUTÓMATA</text>
+  <text x="360" y="84" text-anchor="middle" fill="#F2C4CE" font-size="11">grilla toroidal · vecindario · orden de barrido</text>
+  <text x="360" y="102" text-anchor="middle" fill="#F2C4CE" font-size="11">avance del tiempo · censo de poblaciones</text>
+  <rect x="212" y="114" width="296" height="30" rx="6" fill="#7B2D3B"/>
+  <text x="360" y="134" text-anchor="middle" fill="#FFFFFF" font-size="11">No sabe qué es una presa ni un depredador.</text>
+
+  <line x1="240" y1="158" x2="150" y2="196" stroke="#A4133C" stroke-width="2" marker-end="url(#a11)"/>
+  <line x1="330" y1="158" x2="300" y2="196" stroke="#A4133C" stroke-width="2" marker-end="url(#a11)"/>
+  <line x1="390" y1="158" x2="420" y2="196" stroke="#A4133C" stroke-width="2" marker-end="url(#a11)"/>
+  <line x1="480" y1="158" x2="570" y2="196" stroke="#A4133C" stroke-width="2" marker-end="url(#a11)"/>
+
+  <rect x="14" y="200" width="164" height="96" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="96" y="222" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">regla_movimiento</text>
+  <text x="96" y="242" text-anchor="middle" fill="#333333" font-size="10">¿a dónde puede ir?</text>
+  <text x="96" y="260" text-anchor="middle" fill="#6B7280" font-size="10">azar uniforme</text>
+  <text x="96" y="276" text-anchor="middle" fill="#6B7280" font-size="10">huida · persecución</text>
+
+  <rect x="188" y="200" width="164" height="96" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="270" y="222" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">regla_alimentacion</text>
+  <text x="270" y="242" text-anchor="middle" fill="#333333" font-size="10">¿qué gana al comer?</text>
+  <text x="270" y="260" text-anchor="middle" fill="#6B7280" font-size="10">energía fija</text>
+  <text x="270" y="276" text-anchor="middle" fill="#6B7280" font-size="10">saciedad · eficiencia</text>
+
+  <rect x="362" y="200" width="164" height="96" rx="8" fill="#F5FBF6" stroke="#28A745" stroke-width="1.5"/>
+  <text x="444" y="222" text-anchor="middle" fill="#1E7E34" font-size="12" font-weight="bold">regla_reproduccion</text>
+  <text x="444" y="242" text-anchor="middle" fill="#333333" font-size="10">¿cuándo deja cría?</text>
+  <text x="444" y="260" text-anchor="middle" fill="#6B7280" font-size="10">edad umbral · probabilidad</text>
+  <text x="444" y="276" text-anchor="middle" fill="#6B7280" font-size="10">costo energético · densidad</text>
+
+  <rect x="536" y="200" width="170" height="96" rx="8" fill="#FFFFFF" stroke="#E5383B" stroke-width="1.5"/>
+  <text x="621" y="222" text-anchor="middle" fill="#E5383B" font-size="12" font-weight="bold">regla_muerte</text>
+  <text x="621" y="242" text-anchor="middle" fill="#333333" font-size="10">¿cuándo desaparece?</text>
+  <text x="621" y="260" text-anchor="middle" fill="#6B7280" font-size="10">inanición · vejez</text>
+  <text x="621" y="276" text-anchor="middle" fill="#6B7280" font-size="10">azar · hacinamiento</text>
+
+  <rect x="14" y="310" width="692" height="60" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="360" y="332" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Cambiar de modelo debe costar una función, no una reescritura.</text>
+  <text x="360" y="354" text-anchor="middle" fill="#333333" font-size="11">Si el motor y las reglas están separados, usted puede comparar variantes ejecutando el mismo código con otra configuración.</text>
+</svg>

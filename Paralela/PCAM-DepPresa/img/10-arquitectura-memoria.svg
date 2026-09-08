@@ -1,0 +1,46 @@
+<svg width="720" height="330" viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <text x="175" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Memoria compartida</text>
+  <rect x="40" y="40" width="270" height="80" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="175" y="66" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">grilla_actual · grilla_nueva</text>
+  <text x="175" y="86" text-anchor="middle" fill="#333333" font-size="10">un solo espacio de direcciones</text>
+  <text x="175" y="104" text-anchor="middle" fill="#333333" font-size="10">visible para todos los hilos</text>
+
+  <rect x="50" y="148" width="60" height="34" rx="6" fill="#590D22"/><text x="80" y="170" text-anchor="middle" fill="#FFFFFF" font-size="10">hilo 0</text>
+  <rect x="122" y="148" width="60" height="34" rx="6" fill="#590D22"/><text x="152" y="170" text-anchor="middle" fill="#FFFFFF" font-size="10">hilo 1</text>
+  <rect x="194" y="148" width="60" height="34" rx="6" fill="#590D22"/><text x="224" y="170" text-anchor="middle" fill="#FFFFFF" font-size="10">hilo 2</text>
+  <rect x="266" y="148" width="44" height="34" rx="6" fill="#590D22"/><text x="288" y="170" text-anchor="middle" fill="#FFFFFF" font-size="10">…</text>
+  <line x1="80" y1="148" x2="90" y2="120" stroke="#A4133C" stroke-width="1.4"/>
+  <line x1="152" y1="148" x2="160" y2="120" stroke="#A4133C" stroke-width="1.4"/>
+  <line x1="224" y1="148" x2="200" y2="120" stroke="#A4133C" stroke-width="1.4"/>
+  <line x1="288" y1="148" x2="230" y2="120" stroke="#A4133C" stroke-width="1.4"/>
+
+  <text x="175" y="206" text-anchor="middle" fill="#1E7E34" font-size="10" font-weight="bold">el halo no se copia:</text>
+  <text x="175" y="222" text-anchor="middle" fill="#1E7E34" font-size="10" font-weight="bold">leer la celda vecina es leer memoria</text>
+
+  <line x1="360" y1="40" x2="360" y2="290" stroke="#F4ACB7" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <text x="540" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Memoria distribuida</text>
+  <rect x="410" y="40" width="120" height="80" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="470" y="64" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">proceso 0</text>
+  <text x="470" y="82" text-anchor="middle" fill="#333333" font-size="9">su propia copia</text>
+  <text x="470" y="96" text-anchor="middle" fill="#333333" font-size="9">de las dos grillas</text>
+
+  <rect x="550" y="40" width="120" height="80" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.5"/>
+  <text x="610" y="64" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">proceso 1</text>
+  <text x="610" y="82" text-anchor="middle" fill="#333333" font-size="9">su propia copia</text>
+  <text x="610" y="96" text-anchor="middle" fill="#333333" font-size="9">de las dos grillas</text>
+
+  <path d="M 530 80 L 550 80" stroke="#A4133C" stroke-width="2" marker-end="url(#a10b)"/>
+  <path d="M 550 92 L 530 92" stroke="#A4133C" stroke-width="2" marker-end="url(#a10b)"/>
+  <defs>
+    <marker id="a10b" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#A4133C"/></marker>
+  </defs>
+  <text x="540" y="140" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">el halo SÍ se copia:</text>
+  <text x="540" y="156" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">un mensaje explícito por la red</text>
+  <text x="540" y="176" text-anchor="middle" fill="#333333" font-size="9">en cada generación, por cada frontera</text>
+
+  <rect x="30" y="238" width="660" height="76" rx="8" fill="#590D22"/>
+  <text x="360" y="259" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">La misma decisión de diseño (partición, doble búfer) cuesta distinto según la memoria</text>
+  <text x="360" y="280" text-anchor="middle" fill="#F2C4CE" font-size="11">Compartida: el costo de acceder al vecino es casi nulo → subdominios pequeños son viables.</text>
+  <text x="360" y="298" text-anchor="middle" fill="#F2C4CE" font-size="11">Distribuida: cada acceso al vecino es un mensaje → hay que amortizarlo con subdominios grandes.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="720" height="330" viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a3" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#7B2D3B"/>
+    </marker>
+    <g id="g3">
+      <rect x="0" y="0" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="22" y="0" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="44" y="0" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="0" y="22" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="22" y="22" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="44" y="22" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="0" y="44" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="22" y="44" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+      <rect x="44" y="44" width="22" height="22" fill="#FFFFFF" stroke="#7B2D3B" stroke-width="1"/>
+    </g>
+  </defs>
+
+  <rect x="18" y="16" width="330" height="140" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="183" y="36" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Subpoblación: menos de 2 vecinos vivos</text>
+  <use href="#g3" x="60" y="48"/>
+  <rect x="82" y="70" width="22" height="22" fill="#A4133C"/>
+  <rect x="104" y="48" width="22" height="22" fill="#A4133C"/>
+  <line x1="140" y1="81" x2="196" y2="81" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a3)"/>
+  <use href="#g3" x="212" y="48"/>
+  <text x="245" y="86" text-anchor="middle" fill="#E5383B" font-size="14" font-weight="bold">✕</text>
+  <text x="183" y="146" text-anchor="middle" fill="#333333" font-size="11">La celda viva muere</text>
+
+  <rect x="372" y="16" width="330" height="140" rx="8" fill="#F5FBF6" stroke="#28A745" stroke-width="1.4"/>
+  <text x="537" y="36" text-anchor="middle" fill="#1E7E34" font-size="12" font-weight="bold">Supervivencia: 2 o 3 vecinos vivos</text>
+  <use href="#g3" x="414" y="48"/>
+  <rect x="436" y="70" width="22" height="22" fill="#A4133C"/>
+  <rect x="458" y="48" width="22" height="22" fill="#A4133C"/>
+  <rect x="414" y="92" width="22" height="22" fill="#A4133C"/>
+  <line x1="494" y1="81" x2="550" y2="81" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a3)"/>
+  <use href="#g3" x="566" y="48"/>
+  <rect x="588" y="70" width="22" height="22" fill="#A4133C"/>
+  <text x="537" y="146" text-anchor="middle" fill="#333333" font-size="11">La celda viva permanece viva</text>
+
+  <rect x="18" y="166" width="330" height="140" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="183" y="186" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Sobrepoblación: más de 3 vecinos vivos</text>
+  <use href="#g3" x="60" y="198"/>
+  <rect x="82" y="220" width="22" height="22" fill="#A4133C"/>
+  <rect x="60" y="198" width="22" height="22" fill="#A4133C"/>
+  <rect x="104" y="198" width="22" height="22" fill="#A4133C"/>
+  <rect x="60" y="242" width="22" height="22" fill="#A4133C"/>
+  <rect x="104" y="242" width="22" height="22" fill="#A4133C"/>
+  <line x1="140" y1="231" x2="196" y2="231" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a3)"/>
+  <use href="#g3" x="212" y="198"/>
+  <text x="245" y="236" text-anchor="middle" fill="#E5383B" font-size="14" font-weight="bold">✕</text>
+  <text x="183" y="296" text-anchor="middle" fill="#333333" font-size="11">La celda viva muere</text>
+
+  <rect x="372" y="166" width="330" height="140" rx="8" fill="#F5FBF6" stroke="#28A745" stroke-width="1.4"/>
+  <text x="537" y="186" text-anchor="middle" fill="#1E7E34" font-size="12" font-weight="bold">Nacimiento: celda muerta con 3 vecinos</text>
+  <use href="#g3" x="414" y="198"/>
+  <rect x="414" y="198" width="22" height="22" fill="#A4133C"/>
+  <rect x="458" y="198" width="22" height="22" fill="#A4133C"/>
+  <rect x="414" y="242" width="22" height="22" fill="#A4133C"/>
+  <line x1="494" y1="231" x2="550" y2="231" stroke="#7B2D3B" stroke-width="1.8" marker-end="url(#a3)"/>
+  <use href="#g3" x="566" y="198"/>
+  <rect x="588" y="220" width="22" height="22" fill="#28A745"/>
+  <text x="537" y="296" text-anchor="middle" fill="#333333" font-size="11">Nace una celda viva</text>
+
+  <text x="360" y="322" text-anchor="middle" fill="#6B7280" font-size="11">Vecindario de Moore · notación B3/S23: nace con 3, sobrevive con 2 o 3</text>
+</svg>

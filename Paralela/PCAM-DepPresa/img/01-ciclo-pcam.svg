@@ -1,0 +1,39 @@
+<svg width="700" height="360" viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a1" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#A4133C"/>
+    </marker>
+  </defs>
+  <rect x="270" y="12" width="160" height="58" rx="8" fill="#590D22"/>
+  <text x="350" y="36" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">P</text>
+  <text x="350" y="55" text-anchor="middle" fill="#F2C4CE" font-size="11">Partición</text>
+
+  <rect x="490" y="120" width="170" height="58" rx="8" fill="#7B2D3B"/>
+  <text x="575" y="144" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">C</text>
+  <text x="575" y="163" text-anchor="middle" fill="#F2C4CE" font-size="11">Comunicación</text>
+
+  <rect x="380" y="280" width="180" height="58" rx="8" fill="#A4133C"/>
+  <text x="470" y="304" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">A</text>
+  <text x="470" y="323" text-anchor="middle" fill="#FFFFFF" font-size="11">Aglomeración</text>
+
+  <rect x="120" y="280" width="180" height="58" rx="8" fill="#7B2D3B"/>
+  <text x="210" y="304" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">M</text>
+  <text x="210" y="323" text-anchor="middle" fill="#F2C4CE" font-size="11">Mapeo</text>
+
+  <rect x="40" y="120" width="170" height="58" rx="8" fill="#590D22"/>
+  <text x="125" y="144" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">Problema</text>
+  <text x="125" y="163" text-anchor="middle" fill="#F2C4CE" font-size="11">algoritmo secuencial</text>
+
+  <path d="M 380 60 Q 470 80 520 118" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a1)"/>
+  <path d="M 555 178 Q 530 240 490 282" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a1)"/>
+  <path d="M 380 300 Q 350 300 302 306" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a1)"/>
+  <path d="M 155 280 Q 130 220 130 180" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a1)"/>
+  <path d="M 210 118 Q 250 80 290 50" stroke="#A4133C" stroke-width="2.2" fill="none" marker-end="url(#a1)"/>
+
+  <path d="M 300 155 Q 260 40 -10 40" stroke="#6B7280" stroke-width="1.4" fill="none" stroke-dasharray="4,3"/>
+  <text x="200" y="94" fill="#6B7280" font-size="10">reconsiderar la partición</text>
+
+  <rect x="14" y="200" width="672" height="60" rx="8" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+  <text x="350" y="222" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">Las cuatro etapas de Foster (1995) — no es un proceso rígido</text>
+  <text x="350" y="242" text-anchor="middle" fill="#333333" font-size="11">Se avanza y se retrocede: una mala aglomeración puede obligar a reconsiderar la partición.</text>
+</svg>

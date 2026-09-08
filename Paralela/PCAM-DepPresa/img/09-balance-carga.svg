@@ -1,0 +1,37 @@
+<svg width="700" height="330" viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <text x="350" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">El modelo mismo produce desbalance: los individuos se agrupan</text>
+
+  <text x="175" y="46" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">t = 0 — densidad uniforme</text>
+  <g stroke="#C9B7BB" fill="#FFFFFF">
+    <rect x="50" y="56" width="250" height="120"/>
+  </g>
+  <g fill="#28A745">
+    <circle cx="75" cy="76" r="4"/><circle cx="105" cy="90" r="4"/><circle cx="135" cy="70" r="4"/><circle cx="165" cy="100" r="4"/><circle cx="195" cy="80" r="4"/><circle cx="225" cy="95" r="4"/><circle cx="255" cy="75" r="4"/><circle cx="280" cy="110" r="4"/>
+    <circle cx="65" cy="120" r="4"/><circle cx="95" cy="140" r="4"/><circle cx="130" cy="130" r="4"/><circle cx="160" cy="150" r="4"/><circle cx="190" cy="135" r="4"/><circle cx="220" cy="155" r="4"/><circle cx="250" cy="140" r="4"/><circle cx="275" cy="160" r="4"/>
+  </g>
+  <line x1="175" y1="56" x2="175" y2="176" stroke="#A4133C" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <text x="175" y="192" text-anchor="middle" fill="#1E7E34" font-size="10">carga similar en cada mitad</text>
+
+  <text x="525" y="46" text-anchor="middle" fill="#590D22" font-size="12" font-weight="bold">t = 80 — se forman cúmulos</text>
+  <g stroke="#C9B7BB" fill="#FFFFFF">
+    <rect x="400" y="56" width="250" height="120"/>
+  </g>
+  <g fill="#28A745">
+    <circle cx="430" cy="70" r="4"/><circle cx="440" cy="80" r="4"/><circle cx="450" cy="70" r="4"/><circle cx="435" cy="90" r="4"/><circle cx="455" cy="88" r="4"/><circle cx="445" cy="100" r="4"/>
+  </g>
+  <g fill="#590D22">
+    <polygon points="440,60 447,73 433,73"/>
+  </g>
+  <g fill="#28A745">
+    <circle cx="600" cy="140" r="4"/><circle cx="612" cy="150" r="4"/><circle cx="622" cy="138" r="4"/><circle cx="605" cy="158" r="4"/><circle cx="628" cy="155" r="4"/><circle cx="615" cy="165" r="4"/><circle cx="595" cy="150" r="4"/>
+  </g>
+  <circle cx="500" cy="115" r="3.4" fill="#28A745" opacity="0.7"/>
+  <line x1="525" y1="56" x2="525" y2="176" stroke="#A4133C" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <text x="525" y="192" text-anchor="middle" fill="#A4133C" font-size="10">un subdominio casi vacío, otro saturado</text>
+
+  <rect x="30" y="216" width="640" height="100" rx="8" fill="#590D22"/>
+  <text x="350" y="238" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">Una partición espacialmente uniforme no garantiza una carga uniforme</text>
+  <text x="52" y="260" fill="#F2C4CE" font-size="10">Un subdominio con muchos depredadores evalúa más reglas por generación que uno casi vacío.</text>
+  <text x="52" y="278" fill="#F2C4CE" font-size="10">En memoria compartida: el planificador dinámico absorbe esto de forma natural, sin intervención.</text>
+  <text x="52" y="296" fill="#F2C4CE" font-size="10">En memoria distribuida: requiere sobre-descomposición (más subdominios que procesos) o redistribución periódica.</text>
+</svg>

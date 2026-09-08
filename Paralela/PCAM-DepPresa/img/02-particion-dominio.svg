@@ -1,0 +1,54 @@
+<svg width="720" height="330" viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <defs>
+    <marker id="a2" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#A4133C"/>
+    </marker>
+  </defs>
+  <text x="180" y="24" text-anchor="middle" fill="#7B2D3B" font-size="14" font-weight="bold">Partición de dominio</text>
+  <g stroke="#7B2D3B" stroke-width="1" fill="#FFFFFF">
+    <rect x="40" y="40" width="34" height="34"/><rect x="74" y="40" width="34" height="34"/><rect x="108" y="40" width="34" height="34"/><rect x="142" y="40" width="34" height="34"/><rect x="176" y="40" width="34" height="34"/><rect x="210" y="40" width="34" height="34"/>
+    <rect x="40" y="74" width="34" height="34"/><rect x="74" y="74" width="34" height="34"/><rect x="108" y="74" width="34" height="34" fill="#28A745"/><rect x="142" y="74" width="34" height="34"/><rect x="176" y="74" width="34" height="34"/><rect x="210" y="74" width="34" height="34"/>
+    <rect x="40" y="108" width="34" height="34"/><rect x="74" y="108" width="34" height="34" fill="#590D22"/><rect x="108" y="108" width="34" height="34"/><rect x="142" y="108" width="34" height="34" fill="#28A745"/><rect x="176" y="108" width="34" height="34"/><rect x="210" y="108" width="34" height="34"/>
+    <rect x="40" y="142" width="34" height="34"/><rect x="74" y="142" width="34" height="34"/><rect x="108" y="142" width="34" height="34"/><rect x="142" y="142" width="34" height="34"/><rect x="176" y="142" width="34" height="34" fill="#28A745"/><rect x="210" y="142" width="34" height="34"/>
+    <rect x="40" y="176" width="34" height="34"/><rect x="74" y="176" width="34" height="34"/><rect x="108" y="176" width="34" height="34" fill="#28A745"/><rect x="142" y="176" width="34" height="34"/><rect x="176" y="176" width="34" height="34"/><rect x="210" y="176" width="34" height="34"/>
+  </g>
+  <text x="145" y="234" text-anchor="middle" fill="#333333" font-size="11">la grilla completa (estado en t)</text>
+
+  <line x1="270" y1="140" x2="330" y2="140" stroke="#A4133C" stroke-width="2.2" marker-end="url(#a2)"/>
+  <text x="300" y="130" text-anchor="middle" fill="#A4133C" font-size="10">una tarea</text>
+  <text x="300" y="160" text-anchor="middle" fill="#A4133C" font-size="10">por celda</text>
+
+  <g>
+    <rect x="350" y="40" width="70" height="60" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+    <rect x="435" y="40" width="70" height="60" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+    <rect x="520" y="40" width="70" height="60" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+    <rect x="605" y="40" width="70" height="60" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+    <rect x="350" y="112" width="70" height="60" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+    <rect x="435" y="112" width="70" height="60" rx="6" fill="#FFF0F3" stroke="#A4133C" stroke-width="1.4"/>
+
+    <text x="385" y="66" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">tarea (i,j)</text>
+    <text x="385" y="82" text-anchor="middle" fill="#333333" font-size="9">leer vecinos</text>
+    <text x="385" y="94" text-anchor="middle" fill="#333333" font-size="9">de grilla_actual</text>
+
+    <text x="470" y="66" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">tarea (i,j+1)</text>
+    <text x="470" y="82" text-anchor="middle" fill="#333333" font-size="9">leer vecinos</text>
+    <text x="470" y="94" text-anchor="middle" fill="#333333" font-size="9">de grilla_actual</text>
+
+    <text x="555" y="66" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">tarea (i,j+2)</text>
+    <text x="555" y="82" text-anchor="middle" fill="#333333" font-size="9">aplicar reglas</text>
+    <text x="555" y="94" text-anchor="middle" fill="#333333" font-size="9">de la especie</text>
+
+    <text x="640" y="66" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">…</text>
+
+    <text x="385" y="138" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">tarea (i+1,j)</text>
+    <text x="385" y="154" text-anchor="middle" fill="#333333" font-size="9">escribir en</text>
+    <text x="385" y="166" text-anchor="middle" fill="#333333" font-size="9">grilla_nueva</text>
+
+    <text x="470" y="138" text-anchor="middle" fill="#590D22" font-size="10" font-weight="bold">…</text>
+  </g>
+
+  <rect x="30" y="252" width="660" height="66" rx="8" fill="#590D22"/>
+  <text x="360" y="273" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">La partición de dominio se elige sobre la funcional</text>
+  <text x="360" y="293" text-anchor="middle" fill="#F2C4CE" font-size="11">porque la misma regla local se aplica a todas las celdas: el paralelismo es de datos,</text>
+  <text x="360" y="309" text-anchor="middle" fill="#F2C4CE" font-size="11">no de tareas distintas. Un AC no tiene "etapas" que dividir funcionalmente.</text>
+</svg>
