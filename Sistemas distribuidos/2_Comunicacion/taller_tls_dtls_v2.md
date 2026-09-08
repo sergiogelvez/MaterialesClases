@@ -5,7 +5,7 @@
 **Modalidad:** Parejas o individual  
 **Prerrequisito:** Taller de Sockets TCP y UDP con Wireshark
 
----
+
 
 ## Objetivos
 
@@ -18,7 +18,7 @@ Al finalizar este taller, el estudiante será capaz de:
 - Comparar el tráfico seguro con el tráfico en texto plano del taller anterior.
 - Explicar por qué los datos dejan de ser legibles en la traza y qué información sigue siendo visible.
 
----
+
 
 ## 1. Contexto
 
@@ -31,7 +31,7 @@ En este taller vamos a agregar una capa de seguridad:
 
 Vamos a reutilizar la estructura básica del taller anterior (mismo formato de mensajes, mismo puerto base) para que la comparación en Wireshark sea directa.
 
----
+
 
 ## 2. Preparación del entorno
 
@@ -66,7 +66,7 @@ openssl x509 -in certificado.pem -text -noout | head -20
 
 Debería ver información como el emisor, la validez y el algoritmo de firma.
 
----
+
 
 ## 3. Parte 1 — TLS sobre TCP
 
@@ -77,19 +77,19 @@ Comparado con el taller anterior, la secuencia de TCP sigue siendo visible (SYN,
 ```
 CLIENTE                              SERVIDOR
   |                                      |
-  |------- SYN ------------------------->|  handshake TCP
-  |<------ SYN-ACK ---------------------|  (igual que antes)
-  |------- ACK ------------------------->|
+  |- SYN ->|  handshake TCP
+  |< SYN-ACK |  (igual que antes)
+  |- ACK ->|
   |                                      |
-  |------- ClientHello ----------------->|  handshake TLS
-  |<------ ServerHello, Certificate -----|  (nuevo)
-  |<------ ServerKeyExchange, Done ------|
-  |------- ClientKeyExchange ----------->|
-  |------- ChangeCipherSpec, Finished -->|
-  |<------ ChangeCipherSpec, Finished ---|
+  |- ClientHello -->|  handshake TLS
+  |< ServerHello, Certificate --|  (nuevo)
+  |< ServerKeyExchange, Done |
+  |- ClientKeyExchange -->|
+  |- ChangeCipherSpec, Finished -->|
+  |< ChangeCipherSpec, Finished |
   |                                      |
-  |------- Application Data ----------->|  datos encriptados
-  |<------ Application Data ------------|  (ilegibles)
+  |- Application Data -->|  datos encriptados
+  |< Application Data |  (ilegibles)
   |                                      |
 ```
 
@@ -199,7 +199,7 @@ if __name__ == '__main__':
 **Filtros útiles para Wireshark:**
 
 | Filtro | Qué muestra |
-|--------|-------------|
+|--|-|
 | `tls` | Solo paquetes TLS |
 | `tls.handshake` | Solo mensajes del handshake TLS |
 | `tls.handshake.type == 1` | Solo ClientHello |
@@ -207,7 +207,7 @@ if __name__ == '__main__':
 | `tls.record.content_type == 23` | Solo Application Data (datos encriptados) |
 | `tcp.port == 9001` | Todo el tráfico del puerto del taller |
 
----
+
 
 ## 4. Parte 2 — DTLS sobre UDP
 
@@ -226,17 +226,17 @@ A diferencia de TCP+TLS, aquí **no hay handshake TCP** (no hay SYN/SYN-ACK/ACK)
 ```
 CLIENTE                                  SERVIDOR
   |                                          |
-  |------- ClientHello (UDP) -------------->|  handshake DTLS
-  |<------ HelloVerifyRequest --------------|  (cookie anti-DoS)
-  |------- ClientHello + cookie ----------->|
-  |<------ ServerHello, Certificate --------|
-  |<------ ServerKeyExchange, Done ---------|
-  |------- ClientKeyExchange -------------->|
-  |------- ChangeCipherSpec, Finished ----->|
-  |<------ ChangeCipherSpec, Finished ------|
+  |- ClientHello (UDP) -->|  handshake DTLS
+  |< HelloVerifyRequest --|  (cookie anti-DoS)
+  |- ClientHello + cookie -->|
+  |< ServerHello, Certificate --|
+  |< ServerKeyExchange, Done |
+  |- ClientKeyExchange -->|
+  |- ChangeCipherSpec, Finished -->|
+  |< ChangeCipherSpec, Finished |
   |                                          |
-  |------- Application Data (UDP) --------->|  datos encriptados
-  |<------ Application Data (UDP) ----------|
+  |- Application Data (UDP) >|  datos encriptados
+  |< Application Data (UDP) -|
   |                                          |
 ```
 
@@ -457,7 +457,7 @@ Una vez conectados, escriba un mensaje en la terminal del cliente y presione Ent
 **Filtros útiles para Wireshark:**
 
 | Filtro | Qué muestra |
-|--------|-------------|
+|--|-|
 | `dtls` | Solo paquetes DTLS |
 | `dtls.handshake` | Solo mensajes del handshake DTLS |
 | `dtls.handshake.type == 1` | Solo ClientHello |
@@ -465,7 +465,7 @@ Una vez conectados, escriba un mensaje en la terminal del cliente y presione Ent
 | `dtls.record.content_type == 23` | Solo Application Data |
 | `udp.port == 9002` | Todo el tráfico del puerto |
 
----
+
 
 ## 5. Parte 3 — Comparación
 
@@ -476,7 +476,7 @@ Si conservan las capturas del taller anterior (`captura_tcp.pcap` y `captura_udp
 **Ejercicio guiado:** Para cada protocolo (TCP plano, UDP plano, TLS, DTLS), busque en la traza y anote:
 
 | Aspecto | TCP plano | UDP plano | TLS (TCP) | DTLS (UDP) |
-|---------|-----------|-----------|-----------|------------|
+||--|--|--||
 | ¿Cuántos paquetes antes del primer dato? | | | | |
 | ¿El contenido del mensaje es legible? | | | | |
 | ¿Qué protocolo muestra Wireshark en la columna Protocol? | | | | |
@@ -494,7 +494,7 @@ Si conservan las capturas del taller anterior (`captura_tcp.pcap` y `captura_udp
 
 4. Repita con la captura DTLS. ¿Puede leer el contenido?
 
----
+
 
 ## 6. Cuestionario
 
@@ -527,7 +527,7 @@ Responda las siguientes preguntas basándose en las trazas capturadas.
 10. Complete la siguiente tabla midiendo los tiempos en sus trazas:
 
 | Métrica | TCP plano | TLS | UDP plano | DTLS |
-|---------|-----------|-----|-----------|------|
+||--|--|--||
 | Tiempo hasta el primer dato enviado (ms) | | | | |
 | Número total de paquetes en la sesión | | | | |
 | Tamaño promedio de los paquetes de datos (bytes) | | | | |
@@ -536,7 +536,7 @@ Responda las siguientes preguntas basándose en las trazas capturadas.
 
 12. Proponga dos escenarios reales donde usaría DTLS en lugar de TLS. Justifique considerando las características que observó en las trazas.
 
----
+
 
 ## 7. Entregables
 
@@ -548,19 +548,19 @@ Responda las siguientes preguntas basándose en las trazas capturadas.
 - Este documento con el cuestionario respondido.
 - Capturas de pantalla de los paquetes ClientHello (TLS y DTLS) expandidos en Wireshark.
 
----
+
 
 ## 8. Rúbrica
 
 | Componente | Peso |
-|------------|------|
+|||
 | Código TLS funcional (servidor + cliente) | 20% |
 | Código DTLS funcional (servidor + cliente) | 20% |
 | Capturas .pcap con tráfico completo | 20% |
 | Cuestionario respondido | 30% |
 | Tabla comparativa completa (pregunta 10) | 10% |
 
----
+
 
 ## 9. Recursos adicionales
 
