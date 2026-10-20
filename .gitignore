@@ -216,3 +216,73 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== LaTeX =====
+
+# Archivos de compilación auxiliares
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Directorios de compilación (latexmk, etc.)
+*.latexmk
+*.xdv
+
+# Bibliografía
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Índices y glosarios (makeidx, glossaries)
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glsdefs
+*.acn
+*.acr
+*.alg
+*.glg
+
+# Figuras y diagrams generados automáticamente (TikZ, circuitikz)
+*-converted-to.*
+
+# Nomenclature / acrónimos
+*.nlo
+*.nls
+
+# Latexmk / beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Autenticación de hyperref
+*.haux
+*.href
+
+# Snapshots de latexdiff
+*.pdfsync
+
+# Protect .tex archivos temporales de editors
+*.bak
+*.swp
+
+# Carpeta de construcción del archivo final
+build/
