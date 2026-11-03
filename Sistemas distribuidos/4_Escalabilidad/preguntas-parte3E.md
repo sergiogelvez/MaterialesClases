@@ -2,8 +2,6 @@
 
 Vitillo, *Understanding Distributed Systems* · Sistemas Distribuidos · UIS
 
-Las marcadas con **(C)** tocan contenidos de complemento presentados en clase que van más allá del texto del libro.
-
 ---
 
 ## A. Patrones de escalabilidad
@@ -46,7 +44,7 @@ Las marcadas con **(C)** tocan contenidos de complemento presentados en clase qu
 
 17. Explique el hashing consistente y qué fracción de claves se mueve al agregar un nodo.
 
-18. **(C)** ¿Qué problema resuelven los nodos virtuales en el hashing consistente?
+18. ¿Qué problema resuelven los nodos virtuales en el hashing consistente?
 
 19. Compare el rebalanceo con particiones estáticas y con particiones dinámicas.
 
@@ -90,7 +88,7 @@ Las marcadas con **(C)** tocan contenidos de complemento presentados en clase qu
 
 37. ¿Qué es el retorno directo del servidor (DSR) en un balanceador L4 y qué ventaja tiene?
 
-38. **(C)** ¿Por qué un balanceador L4 reparte mal el tráfico de conexiones HTTP/2 o gRPC de larga duración?
+38. ¿Por qué un balanceador L4 reparte mal el tráfico de conexiones HTTP/2 o gRPC de larga duración?
 
 39. ¿Qué es un *sidecar* y qué relación tiene con una malla de servicios?
 
