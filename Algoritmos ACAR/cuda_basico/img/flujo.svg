@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif">
+<defs><marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7B2D3B"/></marker></defs>
+<rect width="900" height="210" fill="#FFFFFF"/>
+<rect x="20" y="40" width="150" height="110" rx="10" fill="#F2C4CE" stroke="#590D22" stroke-width="2"/>
+<text x="95" y="75" font-size="26" fill="#590D22" text-anchor="middle" font-weight="bold">1</text>
+<text x="95" y="105" font-size="19" fill="#590D22" text-anchor="middle" font-weight="bold">Reservar</text>
+<text x="95" y="132" font-size="14" fill="#590D22" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">cudaMalloc</text>
+<line x1="172" y1="95" x2="194" y2="95" stroke="#7B2D3B" stroke-width="2.5" marker-end="url(#flecha)"/>
+<rect x="196" y="40" width="150" height="110" rx="10" fill="#F2C4CE" stroke="#590D22" stroke-width="2"/>
+<text x="271" y="75" font-size="26" fill="#590D22" text-anchor="middle" font-weight="bold">2</text>
+<text x="271" y="105" font-size="19" fill="#590D22" text-anchor="middle" font-weight="bold">Copiar</text>
+<text x="271" y="132" font-size="14" fill="#590D22" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">host → device</text>
+<line x1="348" y1="95" x2="370" y2="95" stroke="#7B2D3B" stroke-width="2.5" marker-end="url(#flecha)"/>
+<rect x="372" y="40" width="150" height="110" rx="10" fill="#A4133C" stroke="#590D22" stroke-width="2"/>
+<text x="447" y="75" font-size="26" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+<text x="447" y="105" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Lanzar</text>
+<text x="447" y="132" font-size="14" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">kernel&lt;&lt;&lt;…&gt;&gt;&gt;</text>
+<line x1="524" y1="95" x2="546" y2="95" stroke="#7B2D3B" stroke-width="2.5" marker-end="url(#flecha)"/>
+<rect x="548" y="40" width="150" height="110" rx="10" fill="#F2C4CE" stroke="#590D22" stroke-width="2"/>
+<text x="623" y="75" font-size="26" fill="#590D22" text-anchor="middle" font-weight="bold">4</text>
+<text x="623" y="105" font-size="19" fill="#590D22" text-anchor="middle" font-weight="bold">Copiar</text>
+<text x="623" y="132" font-size="14" fill="#590D22" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">device → host</text>
+<line x1="700" y1="95" x2="722" y2="95" stroke="#7B2D3B" stroke-width="2.5" marker-end="url(#flecha)"/>
+<rect x="724" y="40" width="150" height="110" rx="10" fill="#F2C4CE" stroke="#590D22" stroke-width="2"/>
+<text x="799" y="75" font-size="26" fill="#590D22" text-anchor="middle" font-weight="bold">5</text>
+<text x="799" y="105" font-size="19" fill="#590D22" text-anchor="middle" font-weight="bold">Liberar</text>
+<text x="799" y="132" font-size="14" fill="#590D22" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">cudaFree</text>
+<text x="450" y="190" font-size="17" fill="#7B2D3B" text-anchor="middle">Solo el paso 3 se ejecuta en la GPU; los demás los ordena la CPU</text>
+</svg>

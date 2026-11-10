@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif">
+<defs><marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7B2D3B"/></marker></defs>
+<rect width="900" height="360" fill="#FFFFFF"/>
+<text x="210" y="30" font-size="20" fill="#590D22" text-anchor="middle" font-weight="bold">CPU: pocos núcleos potentes</text>
+<rect x="40" y="50" width="340" height="260" rx="6" fill="#FFFFFF" stroke="#590D22" stroke-width="2"/>
+<rect x="55" y="65" width="310" height="50" rx="6" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="2"/>
+<text x="210" y="96" font-size="16" fill="#590D22" text-anchor="middle">Control y predicción de saltos</text>
+<rect x="55" y="125" width="150" height="55" rx="6" fill="#A4133C" stroke="#590D22" stroke-width="2"/>
+<text x="130" y="159" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Núcleo</text>
+<rect x="215" y="125" width="150" height="55" rx="6" fill="#A4133C" stroke="#590D22" stroke-width="2"/>
+<text x="290" y="159" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Núcleo</text>
+<rect x="55" y="190" width="150" height="55" rx="6" fill="#A4133C" stroke="#590D22" stroke-width="2"/>
+<text x="130" y="224" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Núcleo</text>
+<rect x="215" y="190" width="150" height="55" rx="6" fill="#A4133C" stroke="#590D22" stroke-width="2"/>
+<text x="290" y="224" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Núcleo</text>
+<rect x="55" y="255" width="310" height="42" rx="6" fill="#D4A0AA" stroke="#7B2D3B" stroke-width="2"/>
+<text x="210" y="282" font-size="17" fill="#590D22" text-anchor="middle">Caché grande</text>
+<text x="210" y="340" font-size="16" fill="#7B2D3B" text-anchor="middle">Baja latencia en tareas secuenciales</text>
+<text x="690" y="30" font-size="20" fill="#590D22" text-anchor="middle" font-weight="bold">GPU: miles de núcleos sencillos</text>
+<rect x="520" y="50" width="340" height="260" rx="6" fill="#FFFFFF" stroke="#590D22" stroke-width="2"/>
+<rect x="535" y="65" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="65" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="88" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="88" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="111" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="111" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="134" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="134" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="157" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="157" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="180" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="180" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="203" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="203" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="226" width="30" height="18" rx="2" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="1"/>
+<rect x="572" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="603" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="634" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="665" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="696" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="727" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="758" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="789" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="820" y="226" width="26" height="18" rx="2" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="535" y="255" width="310" height="42" rx="6" fill="#D4A0AA" stroke="#7B2D3B" stroke-width="2"/>
+<text x="690" y="282" font-size="17" fill="#590D22" text-anchor="middle">Caché pequeña</text>
+<text x="690" y="340" font-size="16" fill="#7B2D3B" text-anchor="middle">Alto rendimiento en datos paralelos</text>
+</svg>

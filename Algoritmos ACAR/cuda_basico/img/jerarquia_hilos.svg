@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif">
+<defs><marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7B2D3B"/></marker></defs>
+<rect width="900" height="340" fill="#FFFFFF"/>
+<rect x="20" y="20" width="560" height="300" rx="10" fill="#FFFFFF" stroke="#590D22" stroke-width="3"/>
+<text x="40" y="50" font-size="20" fill="#590D22" text-anchor="start" font-weight="bold">Malla (grid)</text>
+<rect x="45" y="70" width="160" height="105" rx="6" fill="#F9F4F5" stroke="#7B2D3B" stroke-width="2"/>
+<text x="125" y="92" font-size="15" fill="#590D22" text-anchor="middle" font-weight="bold">Bloque (0,0)</text>
+<rect x="59" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="94" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="129" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="164" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="59" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="94" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="129" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="164" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="223" y="70" width="160" height="105" rx="6" fill="#F2C4CE" stroke="#A4133C" stroke-width="3"/>
+<text x="303" y="92" font-size="15" fill="#590D22" text-anchor="middle" font-weight="bold">Bloque (1,0)</text>
+<rect x="237" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="272" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="307" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="342" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="237" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="272" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="307" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="342" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="401" y="70" width="160" height="105" rx="6" fill="#F9F4F5" stroke="#7B2D3B" stroke-width="2"/>
+<text x="481" y="92" font-size="15" fill="#590D22" text-anchor="middle" font-weight="bold">Bloque (2,0)</text>
+<rect x="415" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="450" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="485" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="520" y="104" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="415" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="450" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="485" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="520" y="137" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="45" y="190" width="160" height="105" rx="6" fill="#F9F4F5" stroke="#7B2D3B" stroke-width="2"/>
+<text x="125" y="212" font-size="15" fill="#590D22" text-anchor="middle" font-weight="bold">Bloque (0,1)</text>
+<rect x="59" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="94" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="129" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="164" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="59" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="94" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="129" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="164" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="223" y="190" width="160" height="105" rx="6" fill="#F9F4F5" stroke="#7B2D3B" stroke-width="2"/>
+<text x="303" y="212" font-size="15" fill="#590D22" text-anchor="middle" font-weight="bold">Bloque (1,1)</text>
+<rect x="237" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="272" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="307" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="342" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="237" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="272" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="307" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="342" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="401" y="190" width="160" height="105" rx="6" fill="#F9F4F5" stroke="#7B2D3B" stroke-width="2"/>
+<text x="481" y="212" font-size="15" fill="#590D22" text-anchor="middle" font-weight="bold">Bloque (2,1)</text>
+<rect x="415" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="450" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="485" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="520" y="224" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="415" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="450" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="485" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<rect x="520" y="257" width="28" height="26" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<line x1="582" y1="120" x2="645" y2="120" stroke="#A4133C" stroke-width="2" marker-end="url(#flecha)" stroke-dasharray="6,4"/>
+<rect x="650" y="40" width="230" height="200" rx="10" fill="#F2C4CE" stroke="#A4133C" stroke-width="3"/>
+<text x="765" y="68" font-size="18" fill="#590D22" text-anchor="middle" font-weight="bold">Bloque (1,0)</text>
+<rect x="668" y="85" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="689" y="115" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">0,0</text>
+<rect x="718" y="85" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="739" y="115" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">1,0</text>
+<rect x="768" y="85" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="789" y="115" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">2,0</text>
+<rect x="818" y="85" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="839" y="115" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3,0</text>
+<rect x="668" y="145" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="689" y="175" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">0,1</text>
+<rect x="718" y="145" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="739" y="175" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">1,1</text>
+<rect x="768" y="145" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="789" y="175" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">2,1</text>
+<rect x="818" y="145" width="42" height="48" rx="5" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="839" y="175" font-size="13" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3,1</text>
+<text x="765" y="228" font-size="15" fill="#590D22" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">threadIdx = (x, y)</text>
+<text x="765" y="285" font-size="16" fill="#7B2D3B" text-anchor="middle">Hilo: ejecuta el kernel</text>
+<text x="765" y="308" font-size="16" fill="#7B2D3B" text-anchor="middle">una vez</text>
+</svg>

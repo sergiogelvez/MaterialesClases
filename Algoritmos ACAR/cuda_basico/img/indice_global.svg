@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="DejaVu Sans Condensed, DejaVu Sans, sans-serif">
+<defs><marker id="flecha" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7B2D3B"/></marker></defs>
+<rect width="900" height="300" fill="#FFFFFF"/>
+<rect x="40" y="40" width="260" height="60" rx="8" fill="#F9F4F5" stroke="#7B2D3B" stroke-width="2"/>
+<text x="170" y="30" font-size="16" fill="#590D22" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, monospace">blockIdx.x = 0</text>
+<rect x="50" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="77" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">0</text>
+<text x="77" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">0</text>
+<rect x="112" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="139" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">1</text>
+<text x="139" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">1</text>
+<rect x="174" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="201" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">2</text>
+<text x="201" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">2</text>
+<rect x="236" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="263" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3</text>
+<text x="263" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3</text>
+<rect x="320" y="40" width="260" height="60" rx="8" fill="#F2C4CE" stroke="#7B2D3B" stroke-width="2"/>
+<text x="450" y="30" font-size="16" fill="#590D22" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, monospace">blockIdx.x = 1</text>
+<rect x="330" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="357" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">0</text>
+<text x="357" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">4</text>
+<rect x="392" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="419" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">1</text>
+<text x="419" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">5</text>
+<rect x="454" y="50" width="54" height="40" rx="4" fill="#590D22" stroke="#590D22" stroke-width="1"/>
+<text x="481" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">2</text>
+<text x="481" y="128" font-size="16" fill="#590D22" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, monospace">6</text>
+<rect x="516" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="543" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3</text>
+<text x="543" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">7</text>
+<rect x="600" y="40" width="260" height="60" rx="8" fill="#F9F4F5" stroke="#7B2D3B" stroke-width="2"/>
+<text x="730" y="30" font-size="16" fill="#590D22" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, monospace">blockIdx.x = 2</text>
+<rect x="610" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="637" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">0</text>
+<text x="637" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">8</text>
+<rect x="672" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="699" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">1</text>
+<text x="699" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">9</text>
+<rect x="734" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="761" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">2</text>
+<text x="761" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">10</text>
+<rect x="796" y="50" width="54" height="40" rx="4" fill="#A4133C" stroke="#590D22" stroke-width="1"/>
+<text x="823" y="76" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">3</text>
+<text x="823" y="128" font-size="16" fill="#7B2D3B" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">11</text>
+<text x="20" y="76" font-size="14" fill="#1A1A1A" text-anchor="middle"></text>
+<text x="450" y="160" font-size="15" fill="#7B2D3B" text-anchor="middle">Dentro de la caja: threadIdx.x  ·  Debajo: índice global i en el arreglo</text>
+<rect x="130" y="185" width="640" height="60" rx="8" fill="#FFFFFF" stroke="#A4133C" stroke-width="2.5"/>
+<text x="450" y="223" font-size="21" fill="#590D22" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, monospace">i = blockIdx.x · blockDim.x + threadIdx.x</text>
+<text x="450" y="280" font-size="18" fill="#A4133C" text-anchor="middle" font-weight="bold">Ejemplo resaltado:  i = 1 · 4 + 2 = 6</text>
+</svg>
